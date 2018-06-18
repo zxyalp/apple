@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../alphadata/.idea/alphadata.iml" filepath="$PROJECT_DIR$/../alphadata/.idea/alphadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/apple.iml" filepath="$PROJECT_DIR$/.idea/apple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../s14core/.idea/s14core.iml" filepath="$PROJECT_DIR$/../s14core/.idea/s14core.iml" />
       <module fileurl="file://$PROJECT_DIR$/../whatdata/.idea/whatdata.iml" filepath="$PROJECT_DIR$/../whatdata/.idea/whatdata.iml" />
     </modules>
   </component>
