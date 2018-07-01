@@ -27,7 +27,6 @@
     <index id="13" parent="6" name="sqlite_autoindex_alembic_version_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version_num</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="14" parent="6" name="alembic_version_pkc">
@@ -66,11 +65,9 @@
     </column>
     <index id="22" parent="7" name="ix_environ_mapping_tms_ip">
       <ColNames>tms_ip</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <index id="23" parent="7" name="ix_environ_mapping_user_prefix">
       <ColNames>user_prefix</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="24" parent="7">
       <ColNames>id</ColNames>
@@ -99,7 +96,6 @@
     </column>
     <index id="30" parent="8" name="ix_pageview_view">
       <ColNames>view</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="31" parent="8">
       <ColNames>id</ColNames>
@@ -125,12 +121,10 @@
     <index id="36" parent="9" name="sqlite_autoindex_roles_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="37" parent="9" name="ix_roles_default">
       <ColNames>default</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="38" parent="9">
       <ColNames>id</ColNames>
@@ -207,12 +201,10 @@
     </column>
     <index id="56" parent="11" name="ix_users_email">
       <ColNames>email</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="57" parent="11" name="ix_users_username">
       <ColNames>username</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="58" parent="11">
