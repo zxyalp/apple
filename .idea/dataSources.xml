@@ -19,13 +19,13 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="pro-data" uuid="9dc2085e-880e-4645-81f8-7319f32c2641">
+    <data-source source="LOCAL" name="test" uuid="57ccd443-121c-4d14-ace7-8a27f94b5e1f">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>SQLite</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\User\PycharmProjects\alphadata\pro-data.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\yang.zhou\PycharmProjects\alphadata\test.sqlite</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
@@ -37,23 +37,17 @@
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.20.1.1/xerial-sqlite-license.txt</url>
         </library>
         <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.20.1.1/sqlite-jdbc-3.20.1.1.jar</url>
-        </library>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.20.1.1/xerial-sqlite-license.txt</url>
-        </library>
-        <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.20.1.1/xerial-sqlite-license_2.txt</url>
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="test" uuid="57ccd443-121c-4d14-ace7-8a27f94b5e1f">
+    <data-source source="LOCAL" name="pro-data [2]" uuid="b5dc9c86-f51f-42dc-b2c9-21a214b43af1">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>SQLite</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\yang.zhou\PycharmProjects\alphadata\test.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\yang.zhou\PycharmProjects\alphadata\pro-data.sqlite</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
