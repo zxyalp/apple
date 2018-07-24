@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf17b17-6f11-4bbc-9df7-72af9154e5e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../alphadata/app/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alphadata/app/core/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alphadata/app/core/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alphadata/app/core/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/_left_nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/_environ.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/_environ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/_left_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/_left_main_nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/_tablemap.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/_tablemap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/edit_environ.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/edit_environ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/query.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/query.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/querycustinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/querycustinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/querydealorder.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/querydealorder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/querydemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/querydemo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/queryfundcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/queryfundcode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/querynotifyorder.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/querynotifyorder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/querysql.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/querysql.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/querycustbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alphadata/app/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alphadata/app/core/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/core/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alphadata/app/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/core/_left_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/core/_left_nav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../alphadata/data-dev.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/data-dev.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -43,7 +26,7 @@
     <SUITE FILE_PATH="coverage/apple$connection.coverage" NAME="connection Coverage Results" MODIFIED="1530372280877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
     <SUITE FILE_PATH="coverage/apple$sqlfmt.coverage" NAME="sqlfmt Coverage Results" MODIFIED="1530159210616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphatest" />
     <SUITE FILE_PATH="coverage/apple$sqlalchemy_db.coverage" NAME="sqlalchemy_db Coverage Results" MODIFIED="1528705152916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$manage.coverage" NAME="manage Coverage Results" MODIFIED="1532401160893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$manage.coverage" NAME="manage Coverage Results" MODIFIED="1532411798660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -96,11 +79,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="query.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/query.html">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="304">
+              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+              <folding>
+                <element signature="e#2345#2352#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,11 +100,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_environ.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../alphadata/app/core/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="174" column="30" selection-start-line="174" selection-start-column="30" selection-end-line="174" selection-end-column="30" />
+              <folding>
+                <element signature="e#72#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../alphadata/app/connection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-223">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_left_nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/_left_nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../alphadata/app/core/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="58" column="11" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="11" />
+              <folding>
+                <element signature="e#72#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_environ.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/edit_environ.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="133">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -139,47 +167,6 @@
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="querynotifyorder.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querynotifyorder.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="querysql.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querysql.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="querydemo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querydemo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/auth/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unconfirmed.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/auth/unconfirmed.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -212,8 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/queryfundcode.html" />
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/_tabledat.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/edit-environ.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/tablemap.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/querydemo.html" />
@@ -232,7 +217,6 @@
         <option value="$PROJECT_DIR$/../alphatest/sqlfmt.py" />
         <option value="$PROJECT_DIR$/../alphadata/config.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/main/forms.py" />
-        <option value="$PROJECT_DIR$/../alphadata/app/connection.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/querycomplexsql.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/querycustinfo.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/querynotifyorder.html" />
@@ -248,21 +232,24 @@
         <option value="$PROJECT_DIR$/../alphadata/app/templates/user.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/core/__init__.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/core/errors.py" />
-        <option value="$PROJECT_DIR$/../alphadata/app/core/views.py" />
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/_left_nav.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/edit_environ.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/__init__.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/index.html" />
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/base.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/_left_main_nav.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/core/querycustinfo.html" />
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/queryfundcode.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/core/querydemo.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/core/querynotifyorder.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/core/querysql.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/core/query.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/core/querydealorder.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/core/edit_environ.html" />
+        <option value="$PROJECT_DIR$/../alphadata/app/core/forms.py" />
+        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/queryfundcode.html" />
+        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/querycustbook.html" />
+        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/_left_nav.html" />
+        <option value="$PROJECT_DIR$/../alphadata/app/templates/base.html" />
+        <option value="$PROJECT_DIR$/../alphadata/app/core/views.py" />
+        <option value="$PROJECT_DIR$/../alphadata/app/connection.py" />
       </list>
     </option>
   </component>
@@ -299,6 +286,12 @@
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
               <item name="alphadata" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alphadata" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
@@ -353,6 +346,116 @@
       <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata\app\templates" />
       <recent name="C:\Users\User\PycharmProjects\apple\polls\static\polls\images" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../alphadata/pro-data.sqlite</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -714,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532092061630</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add core mode">
+      <created>1532403153124</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1532403153124</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -735,9 +845,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32784185" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.09757943" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
@@ -778,7 +888,8 @@
     <MESSAGE value="添加查询次数" />
     <MESSAGE value="添加查询字体颜色" />
     <MESSAGE value="添加交易开通配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加交易开通配置" />
+    <MESSAGE value="add core mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="add core mode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -786,20 +897,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://89c58ab5-03db-44ec-8a3a-0f637aac7d3f/schema/main/table/environ_mapping">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://b5dc9c86-f51f-42dc-b2c9-21a214b43af1/schema/main/table/pageview">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -959,13 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/_left_nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/_table.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -975,36 +1065,10 @@
     <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/403.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="56" column="20" selection-start-line="56" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/_left_main_nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/core/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#72#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-          <folding>
-            <element signature="e#72#131#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,13 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/queryfundcode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querynotifyorder.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1085,13 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querycustinfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querydealorder.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1099,10 +1149,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querycustinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/_left_nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/queryfundcode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/edit_environ.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="133">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/core/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="11" />
+          <folding>
+            <element signature="e#72#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+          <folding>
+            <element signature="e#2345#2352#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querycustbook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="174" column="30" selection-start-line="174" selection-start-column="30" selection-end-line="174" selection-end-column="30" />
+          <folding>
+            <element signature="e#72#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-end-line="36" />
         </state>
       </provider>
     </entry>
