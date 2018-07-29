@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbf17b17-6f11-4bbc-9df7-72af9154e5e4" name="Default" comment="">
+    <list default="true" id="bbf17b17-6f11-4bbc-9df7-72af9154e5e4" name="Default" comment="add dict">
       <change beforePath="$PROJECT_DIR$/../alphadata/app/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -92,6 +92,16 @@
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="15" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -99,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../alphadata/app/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="275" column="33" lean-forward="true" selection-start-line="275" selection-start-column="33" selection-end-line="275" selection-end-column="33" />
+            <state relative-caret-position="528">
+              <caret line="279" column="17" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
               <folding>
                 <element signature="e#72#131#0" expanded="true" />
               </folding>
@@ -109,19 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/core/views.py___jb_tmp___">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4796">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Envs/flask-env/Lib/random.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16324">
-              <caret line="750" column="23" selection-start-line="750" selection-start-column="23" selection-end-line="750" selection-end-column="23" />
+            <state relative-caret-position="291">
+              <caret line="177" column="11" lean-forward="true" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -857,7 +858,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532879477911</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add dict">
+      <created>1532879603553</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1532879603553</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1205,13 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Envs/flask-env/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16324">
-          <caret line="750" column="23" selection-start-line="750" selection-start-column="23" selection-end-line="750" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/core/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
@@ -1264,10 +1265,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Envs/flask-env/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="177" column="11" lean-forward="true" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="275" column="33" lean-forward="true" selection-start-line="275" selection-start-column="33" selection-end-line="275" selection-end-column="33" />
+        <state relative-caret-position="528">
+          <caret line="279" column="17" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
           <folding>
             <element signature="e#72#131#0" expanded="true" />
           </folding>
