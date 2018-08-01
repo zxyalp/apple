@@ -8,6 +8,7 @@
     <orderEntry type="module" module-name="whatdata" />
     <orderEntry type="module" module-name="s14core" />
     <orderEntry type="module" module-name="alphatest" />
+    <orderEntry type="module" module-name="demo" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
