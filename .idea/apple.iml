@@ -10,7 +10,6 @@
     <orderEntry type="module" module-name="alphatest" />
     <orderEntry type="module" module-name="demo" />
     <orderEntry type="module" module-name="myvue" />
-    <orderEntry type="module" module-name="django-wiki" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
