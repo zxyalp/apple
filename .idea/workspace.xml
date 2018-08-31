@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbf17b17-6f11-4bbc-9df7-72af9154e5e4" name="Default" comment="1、修改生成身份证ID">
+    <list default="true" id="bbf17b17-6f11-4bbc-9df7-72af9154e5e4" name="Default" comment="1、页面标题">
       <change beforePath="$PROJECT_DIR$/../alphadata/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -83,34 +83,35 @@
     <session id="-610097245">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="4" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="25" />
-          <entry key="html" value="893" />
+          <entry key="html" value="903" />
           <entry key="js" value="90" />
           <entry key="md" value="14" />
           <entry key="py" value="3507" />
-          <entry key="txt" value="208" />
+          <entry key="txt" value="219" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="25" />
-          <entry key="HTML" value="738" />
+          <entry key="HTML" value="748" />
           <entry key="JavaScript" value="90" />
           <entry key="Markdown" value="14" />
-          <entry key="PLAIN_TEXT" value="208" />
+          <entry key="PLAIN_TEXT" value="219" />
           <entry key="Python" value="3507" />
           <entry key="SQL" value="155" />
         </counts>
@@ -149,7 +150,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../alphadata/app/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="5282">
               <caret line="290" selection-start-line="290" selection-end-line="290" />
             </state>
           </provider>
@@ -158,8 +159,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="133">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -297,7 +298,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,6 +330,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -485,13 +486,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527837675990</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add wsgi">
-      <created>1529042055489</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1529042055489</updated>
     </task>
     <task id="LOCAL-00010" summary="add django">
       <created>1529336981888</created>
@@ -829,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535699558025</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="1、页面标题">
+      <created>1535700240781</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1535700240783</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TodoView">
@@ -845,7 +846,7 @@
     <frame x="-1928" y="-162" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.15671642" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.15831557" />
       <window_info id="Structure" order="1" sideWeight="0.5021834" side_tool="true" weight="0.1762481" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -903,7 +904,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../alphatest" />
     </ignored-roots>
-    <MESSAGE value="查询需要，传入表和字段" />
     <MESSAGE value="add table" />
     <MESSAGE value="添加查询次数" />
     <MESSAGE value="添加查询字体颜色" />
@@ -928,7 +928,8 @@
     <MESSAGE value="1、修复全部生成，不使用指定银行卡尾号" />
     <MESSAGE value="1、添加视图注释" />
     <MESSAGE value="1、修改生成身份证ID" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、修改生成身份证ID" />
+    <MESSAGE value="1、页面标题" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、页面标题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../alphadata/app/create_execute.py">
@@ -1212,7 +1213,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="5282">
           <caret line="290" selection-start-line="290" selection-end-line="290" />
         </state>
       </provider>
@@ -1233,8 +1234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="133">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
         </state>
       </provider>
     </entry>
