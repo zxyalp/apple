@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="pro-data [2]">
-  <database-model serializer="dbm" rdbms="SQLITE" format-version="4.9">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="4.11">
     <root id="1">
       <ServerVersion>3.20.1</ServerVersion>
     </root>
@@ -64,12 +64,12 @@
       <Position>7</Position>
       <DataType>VARCHAR(64)|0s</DataType>
     </column>
-    <index id="22" parent="7" name="ix_environ_mapping_tms_ip">
+    <column id="22" parent="7" name="tp_dsn">
+      <Position>8</Position>
+      <DataType>VARCHAR(64)|0s</DataType>
+    </column>
+    <index id="23" parent="7" name="ix_environ_mapping_tms_ip">
       <ColNames>tms_ip</ColNames>
-      <ColumnCollations></ColumnCollations>
-    </index>
-    <index id="23" parent="7" name="ix_environ_mapping_user_prefix">
-      <ColNames>user_prefix</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
     <key id="24" parent="7">
