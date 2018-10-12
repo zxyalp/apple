@@ -3,14 +3,18 @@
     <words>
       <w>acti</w>
       <w>addr</w>
+      <w>bindcard</w>
+      <w>cnaps</w>
       <w>cust</w>
       <w>custno</w>
+      <w>doajaxaction</w>
       <w>envs</w>
       <w>fabr</w>
       <w>forone</w>
       <w>hbone</w>
       <w>inlines</w>
       <w>payredeem</w>
+      <w>phoneidentify</w>
       <w>querycustinfo</w>
       <w>querydealorder</w>
       <w>querydemo</w>
@@ -19,6 +23,7 @@
       <w>simu</w>
       <w>sqlalchemy</w>
       <w>tablename</w>
+      <w>xieyi</w>
       <w>zhzx</w>
     </words>
   </dictionary>
