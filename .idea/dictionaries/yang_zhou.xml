@@ -20,6 +20,8 @@
       <w>querydemo</w>
       <w>queryfundcode</w>
       <w>querynotifyorder</w>
+      <w>querypubfundcode</w>
+      <w>querypublicfundcode</w>
       <w>simu</w>
       <w>sqlalchemy</w>
       <w>tablename</w>
