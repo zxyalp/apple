@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="pro-data" uuid="094421c7-75f9-42fe-81ab-0d80b1bea807">
+    <data-source source="LOCAL" name="data-dev" uuid="9b69ae15-b60f-4882-9ec5-2e861f8bed46">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\yang.zhou\PycharmProjects\alphadata\pro-data.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\yang.zhou\PycharmProjects\alphadata\data-dev.sqlite</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
@@ -21,11 +21,11 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="data-dev" uuid="9b69ae15-b60f-4882-9ec5-2e861f8bed46">
+    <data-source source="LOCAL" name="pro-data" uuid="e6722bef-ef8d-4411-bbbf-f676492633ca">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\yang.zhou\PycharmProjects\alphadata\data-dev.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\yang.zhou\PycharmProjects\alphadata\pro-data.sqlite</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
