@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../alphadata/.idea/alphadata.iml" filepath="$PROJECT_DIR$/../alphadata/.idea/alphadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/apple.iml" filepath="$PROJECT_DIR$/.idea/apple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../demo/.idea/demo.iml" filepath="$PROJECT_DIR$/../demo/.idea/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../myvue/.idea/myvue.iml" filepath="$PROJECT_DIR$/../myvue/.idea/myvue.iml" />
       <module fileurl="file://$PROJECT_DIR$/../whatdata/.idea/whatdata.iml" filepath="$PROJECT_DIR$/../whatdata/.idea/whatdata.iml" />
     </modules>
