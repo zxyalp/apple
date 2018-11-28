@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
+  <component name="Flask">
+    <option name="enabled" value="false" />
+  </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.6 (django-env)" jdkType="Python SDK" />
@@ -11,6 +14,9 @@
     <orderEntry type="module" module-name="demo" />
     <orderEntry type="module" module-name="myvue" />
     <orderEntry type="module" module-name="myvue" />
+    <orderEntry type="module" module-name="django-wiki" />
+    <orderEntry type="module" module-name="mylabora" />
+    <orderEntry type="module" module-name="projango" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

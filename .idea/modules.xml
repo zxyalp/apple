@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../alphadata/.idea/alphadata.iml" filepath="$PROJECT_DIR$/../alphadata/.idea/alphadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/apple.iml" filepath="$PROJECT_DIR$/.idea/apple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django-wiki/.idea/django-wiki.iml" filepath="$PROJECT_DIR$/../django-wiki/.idea/django-wiki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mylabora/.idea/mylabora.iml" filepath="$PROJECT_DIR$/../mylabora/.idea/mylabora.iml" />
       <module fileurl="file://$PROJECT_DIR$/../myvue/.idea/myvue.iml" filepath="$PROJECT_DIR$/../myvue/.idea/myvue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../projango/.idea/projango.iml" filepath="$PROJECT_DIR$/../projango/.idea/projango.iml" />
       <module fileurl="file://$PROJECT_DIR$/../whatdata/.idea/whatdata.iml" filepath="$PROJECT_DIR$/../whatdata/.idea/whatdata.iml" />
     </modules>
   </component>
