@@ -9,14 +9,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="alphadata" />
     <orderEntry type="module" module-name="whatdata" />
-    <orderEntry type="module" module-name="s14core" />
-    <orderEntry type="module" module-name="alphatest" />
-    <orderEntry type="module" module-name="demo" />
-    <orderEntry type="module" module-name="myvue" />
     <orderEntry type="module" module-name="myvue" />
     <orderEntry type="module" module-name="django-wiki" />
     <orderEntry type="module" module-name="mylabora" />
     <orderEntry type="module" module-name="projango" />
+    <orderEntry type="module" module-name="publish" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/../mylabora/.idea/mylabora.iml" filepath="$PROJECT_DIR$/../mylabora/.idea/mylabora.iml" />
       <module fileurl="file://$PROJECT_DIR$/../myvue/.idea/myvue.iml" filepath="$PROJECT_DIR$/../myvue/.idea/myvue.iml" />
       <module fileurl="file://$PROJECT_DIR$/../projango/.idea/projango.iml" filepath="$PROJECT_DIR$/../projango/.idea/projango.iml" />
+      <module fileurl="file://F:/build/private/publish/.idea/publish.iml" filepath="F:/build/private/publish/.idea/publish.iml" />
       <module fileurl="file://$PROJECT_DIR$/../whatdata/.idea/whatdata.iml" filepath="$PROJECT_DIR$/../whatdata/.idea/whatdata.iml" />
     </modules>
   </component>
