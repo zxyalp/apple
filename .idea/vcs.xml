@@ -5,6 +5,8 @@
     <mapping directory="$PROJECT_DIR$/../django-wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../myvue" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../projango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../tms-test-script" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../whatdata" vcs="Git" />
+    <mapping directory="F:/build/publish" vcs="svn" />
   </component>
 </project>

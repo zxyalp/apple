@@ -14,6 +14,7 @@
     <orderEntry type="module" module-name="mylabora" />
     <orderEntry type="module" module-name="projango" />
     <orderEntry type="module" module-name="publish" />
+    <orderEntry type="module" module-name="tms-test-script" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
