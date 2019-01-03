@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbf17b17-6f11-4bbc-9df7-72af9154e5e4" name="Default" comment="mock">
-      <change afterPath="$PROJECT_DIR$/../alphadata/tms_mock_deploy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/jekins/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/jekins/tms_mock_deploy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/apple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apple.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yang_zhou.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yang_zhou.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="bbf17b17-6f11-4bbc-9df7-72af9154e5e4" name="Default" comment="mock 脚本优化">
+      <change afterPath="$PROJECT_DIR$/../tms-test-script/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tms-test-script/base/ssh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tms-test-script/base/sys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tms-test-script/flyway/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tms-test-script/flyway/searchsql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tms-test-script/jobs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alphadata/app/boot/searchutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/boot/searchutils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tms-test-script/jekins/tms_mock_deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tms-test-script/jekins/tms_mock_deploy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,46 +20,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/apple$create_db.coverage" NAME="create_db Coverage Results" MODIFIED="1528694956650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$pring_argv.coverage" NAME="pring_argv Coverage Results" MODIFIED="1545371800053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$books.coverage" NAME="books Coverage Results" MODIFIED="1533095398834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$base.coverage" NAME="base Coverage Results" MODIFIED="1539238663381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/client" />
+    <SUITE FILE_PATH="coverage/apple$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1546501673551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/base" />
     <SUITE FILE_PATH="coverage/apple$readexcel.coverage" NAME="readexcel Coverage Results" MODIFIED="1543813914666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$oracle_core.coverage" NAME="oracle_core Coverage Results" MODIFIED="1528867573801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$views.coverage" NAME="views Coverage Results" MODIFIED="1533100367900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$searchutils.coverage" NAME="searchutils Coverage Results" MODIFIED="1546505683124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/boot" />
     <SUITE FILE_PATH="coverage/apple$sqlfmt.coverage" NAME="sqlfmt Coverage Results" MODIFIED="1530159210616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphatest" />
-    <SUITE FILE_PATH="coverage/apple$searchutils.coverage" NAME="searchutils Coverage Results" MODIFIED="1542196178361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/boot" />
-    <SUITE FILE_PATH="coverage/apple$fund_and_book.coverage" NAME="fund_and_book Coverage Results" MODIFIED="1544431165198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$sftp_test.coverage" NAME="sftp_test Coverage Results" MODIFIED="1545721214357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$manage.coverage" NAME="manage Coverage Results" MODIFIED="1543979704518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1533809738160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
-    <SUITE FILE_PATH="coverage/apple$client.coverage" NAME="client Coverage Results" MODIFIED="1541138695823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$ssh_test.coverage" NAME="ssh_test Coverage Results" MODIFIED="1545726157123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
     <SUITE FILE_PATH="coverage/apple$fund_templates.coverage" NAME="fund_templates Coverage Results" MODIFIED="1544168603025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$createexcel.coverage" NAME="createexcel Coverage Results" MODIFIED="1543807197409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$TmsMockDeploy.coverage" NAME="TmsMockDeploy Coverage Results" MODIFIED="1545373405101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$oracle_1.coverage" NAME="oracle_1 Coverage Results" MODIFIED="1528868202749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$conn.coverage" NAME="conn Coverage Results" MODIFIED="1537956052754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
+    <SUITE FILE_PATH="coverage/apple$sftp_test.coverage" NAME="sftp_test Coverage Results" MODIFIED="1545721214357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$pring_argv.coverage" NAME="pring_argv Coverage Results" MODIFIED="1545371800053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$manage.coverage" NAME="manage Coverage Results" MODIFIED="1543979704518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$create_db.coverage" NAME="create_db Coverage Results" MODIFIED="1528694956650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$books__1_.coverage" NAME="books (1) Coverage Results" MODIFIED="1533104624105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$searchxls.coverage" NAME="searchxls Coverage Results" MODIFIED="1540795654716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
+    <SUITE FILE_PATH="coverage/apple$svn_help.coverage" NAME="svn_help Coverage Results" MODIFIED="1545733060273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$books.coverage" NAME="books Coverage Results" MODIFIED="1533095398834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$oracle_2.coverage" NAME="oracle_2 Coverage Results" MODIFIED="1538969413143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$client.coverage" NAME="client Coverage Results" MODIFIED="1541138695823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$sqlalchemy_db.coverage" NAME="sqlalchemy_db Coverage Results" MODIFIED="1528705152916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$oracle_core.coverage" NAME="oracle_core Coverage Results" MODIFIED="1528867573801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
     <SUITE FILE_PATH="coverage/apple$create_execute.coverage" NAME="create_execute Coverage Results" MODIFIED="1532594070120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
     <SUITE FILE_PATH="coverage/apple$demoexcel.coverage" NAME="demoexcel Coverage Results" MODIFIED="1543828358721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$searchxls__1_.coverage" NAME="searchxls (1) Coverage Results" MODIFIED="1542175389933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/boot" />
-    <SUITE FILE_PATH="coverage/apple$cust_books.coverage" NAME="cust_books Coverage Results" MODIFIED="1544428780271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1543395945719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
-    <SUITE FILE_PATH="coverage/apple$insert_fund_templates.coverage" NAME="insert_fund_templates Coverage Results" MODIFIED="1544498008137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$connection.coverage" NAME="connection Coverage Results" MODIFIED="1530372280877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$TmsMockDeploy.coverage" NAME="TmsMockDeploy Coverage Results" MODIFIED="1545373405101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$test.coverage" NAME="test Coverage Results" MODIFIED="1545982389422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
     <SUITE FILE_PATH="coverage/apple$tms_mock_deploy.coverage" NAME="tms_mock_deploy Coverage Results" MODIFIED="1545981147561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$oracle_1.coverage" NAME="oracle_1 Coverage Results" MODIFIED="1528868202749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$conn01.coverage" NAME="conn01 Coverage Results" MODIFIED="1539053863435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$svn_help.coverage" NAME="svn_help Coverage Results" MODIFIED="1545733060273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$utils.coverage" NAME="utils Coverage Results" MODIFIED="1533187916639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$books__1_.coverage" NAME="books (1) Coverage Results" MODIFIED="1533104624105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$updatepip.coverage" NAME="updatepip Coverage Results" MODIFIED="1542265945415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/requirements" />
+    <SUITE FILE_PATH="coverage/apple$insert_fund_templates.coverage" NAME="insert_fund_templates Coverage Results" MODIFIED="1546061423915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
     <SUITE FILE_PATH="coverage/apple$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1533197228105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$conn.coverage" NAME="conn Coverage Results" MODIFIED="1537956052754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$oracle_2.coverage" NAME="oracle_2 Coverage Results" MODIFIED="1538969413143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$searchxls.coverage" NAME="searchxls Coverage Results" MODIFIED="1540795654716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
-    <SUITE FILE_PATH="coverage/apple$sqlalchemy_db.coverage" NAME="sqlalchemy_db Coverage Results" MODIFIED="1528705152916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1535696188714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../django-wiki/testproject" />
+    <SUITE FILE_PATH="coverage/apple$createexcel.coverage" NAME="createexcel Coverage Results" MODIFIED="1543807197409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$searchsql.coverage" NAME="searchsql Coverage Results" MODIFIED="1546504854077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flyway" />
+    <SUITE FILE_PATH="coverage/apple$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1543395945719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
     <SUITE FILE_PATH="coverage/apple$insert_cust_books_templates.coverage" NAME="insert_cust_books_templates Coverage Results" MODIFIED="1544527481639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$views.coverage" NAME="views Coverage Results" MODIFIED="1533100367900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$cust_books.coverage" NAME="cust_books Coverage Results" MODIFIED="1544428780271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$connection.coverage" NAME="connection Coverage Results" MODIFIED="1530372280877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
+    <SUITE FILE_PATH="coverage/apple$conn01.coverage" NAME="conn01 Coverage Results" MODIFIED="1539053863435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
+    <SUITE FILE_PATH="coverage/apple$base.coverage" NAME="base Coverage Results" MODIFIED="1539238663381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/client" />
+    <SUITE FILE_PATH="coverage/apple$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1533809738160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
+    <SUITE FILE_PATH="coverage/apple$ssh_test.coverage" NAME="ssh_test Coverage Results" MODIFIED="1546412116915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$test.coverage" NAME="test Coverage Results" MODIFIED="1545982389422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1535696188714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../django-wiki/testproject" />
+    <SUITE FILE_PATH="coverage/apple$fund_and_book.coverage" NAME="fund_and_book Coverage Results" MODIFIED="1544431165198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$searchxls__1_.coverage" NAME="searchxls (1) Coverage Results" MODIFIED="1542175389933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/boot" />
+    <SUITE FILE_PATH="coverage/apple$updatepip.coverage" NAME="updatepip Coverage Results" MODIFIED="1542265945415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/requirements" />
+    <SUITE FILE_PATH="coverage/apple$utils.coverage" NAME="utils Coverage Results" MODIFIED="1533187916639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -107,122 +108,50 @@
     </expand>
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-610097245">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="34" />
-          <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="8" />
-          <entry key="project.open.time.13" value="7" />
-          <entry key="project.open.time.14" value="4" />
-          <entry key="project.open.time.15" value="4" />
-          <entry key="project.open.time.16" value="4" />
-          <entry key="project.open.time.17" value="3" />
-          <entry key="project.open.time.18" value="2" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="41" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cell" value="12" />
-          <entry key="css" value="25" />
-          <entry key="dummy" value="131" />
-          <entry key="html" value="3112" />
-          <entry key="js" value="90" />
-          <entry key="md" value="14" />
-          <entry key="py" value="33107" />
-          <entry key="sql" value="87" />
-          <entry key="txt" value="820" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="25" />
-          <entry key="HTML" value="2869" />
-          <entry key="JavaScript" value="90" />
-          <entry key="Markdown" value="14" />
-          <entry key="PLAIN_TEXT" value="951" />
-          <entry key="Python" value="33104" />
-          <entry key="SQL" value="246" />
-          <entry key="Scratch" value="99" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="LICENSE" value="1" />
-          <entry key="Pipfile" value="1" />
-          <entry key="alembic_version" value="16" />
-          <entry key="cfg" value="1" />
-          <entry key="config" value="1" />
-          <entry key="css" value="1" />
-          <entry key="environ_mapping" value="27" />
-          <entry key="gitignore" value="3" />
-          <entry key="html" value="265" />
-          <entry key="html___jb_tmp___" value="1" />
-          <entry key="ini" value="4" />
-          <entry key="js" value="1" />
-          <entry key="lock" value="1" />
-          <entry key="md" value="3" />
-          <entry key="pageview" value="21" />
-          <entry key="png" value="1" />
-          <entry key="py" value="513" />
-          <entry key="pyi" value="5" />
-          <entry key="roles" value="6" />
-          <entry key="sql" value="8" />
-          <entry key="sqlite_master" value="3" />
-          <entry key="txt" value="8" />
-          <entry key="users" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="1" />
-          <entry key="Database Element" value="78" />
-          <entry key="HTML" value="265" />
-          <entry key="Image" value="1" />
-          <entry key="Ini" value="5" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="513" />
-          <entry key="PythonStub" value="5" />
-          <entry key="SQL" value="4" />
-          <entry key="Scratch" value="4" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../tms-test-script/jekins/tms_mock_deploy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="363" column="11" lean-forward="true" selection-start-line="363" selection-start-column="11" selection-end-line="363" selection-end-column="11" />
+            <state relative-caret-position="1067">
+              <caret line="239" lean-forward="true" selection-start-line="201" selection-start-column="1" selection-end-line="239" />
               <folding>
                 <element signature="e#74#83#0" expanded="true" />
-                <marker date="1545981334909" expanded="true" signature="6388:6830" ph="..." />
-                <marker date="1545981334909" expanded="true" signature="8688:8694" ph="..." />
-                <marker date="1545981334909" expanded="true" signature="9584:9658" ph="..." />
-                <marker date="1545981334909" expanded="true" signature="11985:11986" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mylabora/test.py">
+        <entry file="file://$PROJECT_DIR$/../tms-test-script/base/ssh.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="427">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
-                <element signature="e#72#88#0" expanded="true" />
+                <element signature="e#71#86#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mylabora/ssh_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="51" selection-start-line="51" selection-end-line="55" selection-end-column="65" />
+              <folding>
+                <marker date="1546412116898" expanded="true" signature="144:179" ph="..." />
+                <marker date="1546412116898" expanded="true" signature="173:175" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tms-test-script/base/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -230,17 +159,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://F:/build/publish/TMSMock/tms_mock_deploy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2221">
-              <caret line="380" selection-start-line="380" selection-end-line="380" />
+            <state relative-caret-position="-1425">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python/Python36/Lib/logging/__init__.py">
+        <entry file="file://$PROJECT_DIR$/../tms-test-script/base/sys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1319" column="8" selection-start-line="1319" selection-start-column="8" selection-end-line="1319" selection-end-column="8" />
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#71#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tms-test-script/flyway/searchsql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+              <folding>
+                <element signature="e#71#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../alphadata/app/boot/searchutils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="120" column="53" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Envs/core-env/Lib/ntpath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="225" column="32" selection-start-line="225" selection-start-column="32" selection-end-line="225" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Envs/core-env/Lib/genericpath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-92">
+              <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -259,7 +230,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Inspector</find>
       <find>favicon</find>
       <find>get_table_comment</find>
       <find>tab_data</find>
@@ -289,6 +259,7 @@
       <find>_debug</find>
       <find>MOCK_APP_NAME</find>
       <find>BLACK_IP</find>
+      <find>decode</find>
     </findStrings>
     <replaceStrings>
       <replace>tabs_data</replace>
@@ -313,13 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/boot/_left_nav.html" />
-        <option value="$PROJECT_DIR$/../myvue/test.py" />
-        <option value="$PROJECT_DIR$/../alphadata/app/boot/forms.py" />
-        <option value="$PROJECT_DIR$/../alphadata/requirements/updatepip.py" />
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/_quick_add_result.html" />
-        <option value="$PROJECT_DIR$/../myvue/cust.sql" />
-        <option value="$PROJECT_DIR$/../alphadata/app/admin.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/admin/views.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/admin/errors.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/admin/__init__.py" />
@@ -340,7 +304,6 @@
         <option value="$PROJECT_DIR$/../mylabora/demoexcel.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/main/views.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/boot/views.py" />
-        <option value="$PROJECT_DIR$/../alphadata/app/boot/searchutils.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/boot/search_word.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/boot/_search_table.html" />
         <option value="$PROJECT_DIR$/../mylabora/add_fund_templates.py" />
@@ -349,7 +312,6 @@
         <option value="$PROJECT_DIR$/../mylabora/high_fund_templates.py" />
         <option value="$PROJECT_DIR$/../mylabora/insert_db.py" />
         <option value="$PROJECT_DIR$/../mylabora/fund_and_book.py" />
-        <option value="$PROJECT_DIR$/../mylabora/insert_fund_templates.py" />
         <option value="$PROJECT_DIR$/../mylabora/insert_cust_books_templates.py" />
         <option value="$PROJECT_DIR$/../mylabora/Config.py" />
         <option value="$PROJECT_DIR$/../mylabora/pring_argv.py" />
@@ -357,33 +319,36 @@
         <option value="$PROJECT_DIR$/../mylabora/config.py" />
         <option value="$PROJECT_DIR$/../mylabora/svn_help.py" />
         <option value="$PROJECT_DIR$/../mylabora/sftp_test.py" />
-        <option value="$PROJECT_DIR$/../mylabora/ssh_test.py" />
         <option value="$PROJECT_DIR$/../mylabora/TmsMockDeploy.py" />
         <option value="$PROJECT_DIR$/../mylabora/tms_mock.py" />
         <option value="F:/build/private/publish/TMSMock/tms_mock_deploy.py" />
         <option value="$PROJECT_DIR$/../mylabora/tmsMock.py" />
         <option value="$PROJECT_DIR$/../mylabora/tms_mock_deploy.py" />
         <option value="$PROJECT_DIR$/../mylabora/test.py" />
+        <option value="$PROJECT_DIR$/../mylabora/insert_fund_templates.py" />
+        <option value="$PROJECT_DIR$/../mylabora/ssh_test.py" />
+        <option value="$PROJECT_DIR$/../tms-test-script/jekins/tms_mock_deploy.py" />
+        <option value="$PROJECT_DIR$/../tms-test-script/base/utils.py" />
+        <option value="$PROJECT_DIR$/../tms-test-script/base/__init__.py" />
+        <option value="$PROJECT_DIR$/../tms-test-script/base/sys.py" />
+        <option value="$PROJECT_DIR$/../tms-test-script/base/ssh.py" />
+        <option value="$PROJECT_DIR$/../tms-test-script/base/oshelper.py" />
+        <option value="$PROJECT_DIR$/../tms-test-script/flyway/searchsql.py" />
+        <option value="$PROJECT_DIR$/../alphadata/app/boot/searchutils.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-162" />
-    <option name="width" value="1280" />
-    <option name="height" value="728" />
+    <option name="x" value="392" />
+    <option name="y" value="-10" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -417,6 +382,21 @@
           <expand>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alphadata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alphadata" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alphadata" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
               <item name="mylabora" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -426,7 +406,31 @@
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
               <item name="tms-test-script" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tms-test-script" type="462c0819:PsiDirectoryNode" />
+              <item name="flyway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tms-test-script" type="462c0819:PsiDirectoryNode" />
               <item name="jekins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tms-test-script" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="publish" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="publish" type="462c0819:PsiDirectoryNode" />
+              <item name="TMSMock" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,15 +449,15 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\build\publish\TMSMock" />
+      <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\trade" />
+      <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata" />
       <recent name="C:\Users\yang.zhou\PycharmProjects\mylabora" />
       <recent name="F:\build\private\publish\TMSMock" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\myvue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\jekins" />
@@ -475,8 +479,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="sftp_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.searchutils">
+    <configuration name="insert_fund_templates" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mylabora" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -489,7 +493,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mylabora/sftp_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mylabora/insert_fund_templates.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="searchsql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tms-test-script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tms-test-script/flyway" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tms-test-script/flyway/searchsql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="searchutils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="alphadata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../alphadata/app/boot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../alphadata/app/boot/searchutils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ssh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tms-test-script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tms-test-script/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tms-test-script/base/ssh.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -520,91 +590,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="svn_help" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mylabora" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mylabora" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mylabora/svn_help.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mylabora" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mylabora" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mylabora/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tms_mock_deploy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mylabora" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mylabora" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\yang.zhou\PycharmProjects\tms-test-script\jekins\tms_mock_deploy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.svn_help" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.sftp_test" />
       <item itemvalue="Python.ssh_test" />
-      <item itemvalue="Python.tms_mock_deploy" />
+      <item itemvalue="Python.insert_fund_templates" />
+      <item itemvalue="Python.searchsql" />
+      <item itemvalue="Python.ssh" />
+      <item itemvalue="Python.searchutils" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.tms_mock_deploy" />
-        <item itemvalue="Python.svn_help" />
+        <item itemvalue="Python.searchutils" />
+        <item itemvalue="Python.searchsql" />
+        <item itemvalue="Python.ssh" />
         <item itemvalue="Python.ssh_test" />
-        <item itemvalue="Python.sftp_test" />
+        <item itemvalue="Python.insert_fund_templates" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\yang.zhou\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
@@ -631,41 +636,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527837675990</updated>
-    </task>
-    <task id="LOCAL-00074" summary="客户信息查询优化">
-      <created>1538980182041</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1538980182041</updated>
-    </task>
-    <task id="LOCAL-00075" summary="批处理节点重置">
-      <created>1539066164999</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1539066164999</updated>
-    </task>
-    <task id="LOCAL-00076" summary="提示文案修改">
-      <created>1539066845662</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1539066845662</updated>
-    </task>
-    <task id="LOCAL-00077" summary="新增快速开户绑卡工具">
-      <created>1539308353486</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1539308353486</updated>
-    </task>
-    <task id="LOCAL-00078" summary="新增快速开户绑卡工具">
-      <created>1539309384342</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1539309384343</updated>
+      <workItem from="1546092046808" duration="302000" />
+      <workItem from="1546092469041" duration="276000" />
+      <workItem from="1546092769194" duration="156000" />
+      <workItem from="1546393184258" duration="218000" />
+      <workItem from="1546393446816" duration="4457000" />
+      <workItem from="1546405910239" duration="10997000" />
     </task>
     <task id="LOCAL-00079" summary="修改环境维护IP">
       <created>1539746447024</created>
@@ -975,8 +951,46 @@
       <option name="project" value="LOCAL" />
       <updated>1545742374724</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="mock job">
+      <created>1545985683350</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1545985683350</updated>
+    </task>
+    <task id="LOCAL-00124" summary="mock 脚本优化">
+      <created>1545985825436</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1545985825436</updated>
+    </task>
+    <task id="LOCAL-00125" summary="数据脚步优化">
+      <created>1546061610099</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1546061610099</updated>
+    </task>
+    <task id="LOCAL-00126" summary="新增造中台产品及持仓的脚本">
+      <created>1546061917486</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1546061917486</updated>
+    </task>
+    <task id="LOCAL-00127" summary="mock 脚本优化">
+      <created>1546412506843</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1546412506843</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -988,15 +1002,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-162" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.15671642" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.31089258" />
       <window_info id="Structure" order="1" sideWeight="0.5021834" side_tool="true" weight="0.1762481" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3253638" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.35758835" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.26841244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.075883575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1046,9 +1060,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/../alphatest" />
@@ -1056,10 +1067,6 @@
       <path value="F:/build/publish" />
       <path value="F:/build/publish-test" />
     </ignored-roots>
-    <MESSAGE value="提示文案修改" />
-    <MESSAGE value="新增快速开户绑卡工具" />
-    <MESSAGE value="修改环境维护IP" />
-    <MESSAGE value="修改查询客户信息sql" />
     <MESSAGE value="提交" />
     <MESSAGE value="常规修改" />
     <MESSAGE value="在线执行优化" />
@@ -1081,56 +1088,13 @@
     <MESSAGE value="工具排行优化" />
     <MESSAGE value="优化" />
     <MESSAGE value="mock" />
-    <option name="LAST_COMMIT_MESSAGE" value="mock" />
+    <MESSAGE value="mock job" />
+    <MESSAGE value="数据脚步优化" />
+    <MESSAGE value="新增造中台产品及持仓的脚本" />
+    <MESSAGE value="mock 脚本优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="mock 脚本优化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/build/TMSMock/tmsMockbak.py" />
-    <entry file="file://F:/build/TMS/gray-full.py" />
-    <entry file="file://F:/build/TMS/tms_jinji_compile.py" />
-    <entry file="file://F:/build/private/publish/common_compile_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/build/private/publish/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/build/private/publish/compile_interface.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/build/private/publish/trade_deploy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/build/private/publish/TMSMock/96shutdown.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/build/private/publish/publishdockerproject2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/flask-env/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="394" column="13" selection-start-line="394" selection-start-column="13" selection-end-line="394" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Envs/flask-env/Lib/site-packages/flask/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1173,13 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Envs/core-env/Lib/site-packages/paramiko/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="458" column="4" lean-forward="true" selection-start-line="458" selection-start-column="4" selection-end-line="458" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Envs/core-env/Lib/site-packages/paramiko/transport.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -1191,13 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="148" selection-start-line="148" selection-end-line="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/core-env/Lib/site-packages/paramiko/channel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="537" selection-start-line="537" selection-end-line="537" />
         </state>
       </provider>
     </entry>
@@ -1229,20 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Envs/core-env/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/tms_mock_deploy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1330">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../myvue/tms_mock_deploy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -1262,13 +1198,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/core/test.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/boot/searchutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="96" column="29" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mylabora/config.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1346,52 +1275,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylabora/ssh_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding>
-            <marker date="1545726157095" expanded="true" signature="144:179" ph="..." />
-            <marker date="1545726157095" expanded="true" signature="173:175" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylabora/tmsMock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1729">
-          <caret line="70" column="37" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="37" />
-          <folding>
-            <element signature="e#182#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylabora/tmsMock.py" />
     <entry file="file://$PROJECT_DIR$/../alphadata/app/boot/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/core-env/Lib/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python/Python36/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1319" column="8" selection-start-line="1319" selection-start-column="8" selection-end-line="1319" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/build/publish/TMSMock/tms_mock_deploy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2221">
-          <caret line="380" selection-start-line="380" selection-end-line="380" />
         </state>
       </provider>
     </entry>
@@ -1402,27 +1290,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../mylabora/insert_cust_books_templates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/tms_mock_deploy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylabora/insert_fund_templates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25023">
+          <caret line="1319" column="8" selection-start-line="1319" selection-start-column="8" selection-end-line="1319" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/trade/insert_cust_books_templates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylabora/demoexcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylabora/createexcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/core-env/Lib/site-packages/paramiko/channel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16188">
+          <caret line="880" column="8" selection-start-line="880" selection-start-column="8" selection-end-line="880" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/285560699/nt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10374">
+          <caret line="546" column="4" selection-start-line="546" selection-start-column="4" selection-end-line="546" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/core-env/Lib/site-packages/paramiko/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="458" column="8" selection-start-line="458" selection-start-column="8" selection-end-line="458" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../mylabora/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="276">
+          <caret line="119" column="8" lean-forward="true" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
           <folding>
             <element signature="e#72#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/core/exts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/build/publish/TMSMock/tms_mock_deploy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../tms-test-script/jekins/tms_mock_deploy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="363" column="11" lean-forward="true" selection-start-line="363" selection-start-column="11" selection-end-line="363" selection-end-column="11" />
+        <state relative-caret-position="1067">
+          <caret line="239" lean-forward="true" selection-start-line="201" selection-start-column="1" selection-end-line="239" />
           <folding>
             <element signature="e#74#83#0" expanded="true" />
-            <marker date="1545981334909" expanded="true" signature="6388:6830" ph="..." />
-            <marker date="1545981334909" expanded="true" signature="8688:8694" ph="..." />
-            <marker date="1545981334909" expanded="true" signature="9584:9658" ph="..." />
-            <marker date="1545981334909" expanded="true" signature="11985:11986" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/base/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylabora/ssh_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="51" selection-start-line="51" selection-end-line="55" selection-end-column="65" />
+          <folding>
+            <marker date="1546412116898" expanded="true" signature="144:179" ph="..." />
+            <marker date="1546412116898" expanded="true" signature="173:175" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/base/ssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#71#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/base/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#71#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/core-env/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/core-env/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="225" column="32" selection-start-line="225" selection-start-column="32" selection-end-line="225" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flyway/searchsql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="e#71#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/boot/searchutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="120" column="53" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
         </state>
       </provider>
     </entry>
