@@ -3,6 +3,7 @@
     <words>
       <w>acti</w>
       <w>addr</w>
+      <w>asctime</w>
       <w>bindcard</w>
       <w>ccms</w>
       <w>cnaps</w>
@@ -14,9 +15,11 @@
       <w>forone</w>
       <w>hbone</w>
       <w>inlines</w>
+      <w>levelname</w>
       <w>mockd</w>
       <w>payredeem</w>
       <w>phoneidentify</w>
+      <w>popen</w>
       <w>querycustinfo</w>
       <w>querydealorder</w>
       <w>querydemo</w>
