@@ -8,9 +8,6 @@
     <orderEntry type="jdk" jdkName="Python 3.6 (django-env)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="alphadata" />
-    <orderEntry type="module" module-name="whatdata" />
-    <orderEntry type="module" module-name="myvue" />
-    <orderEntry type="module" module-name="django-wiki" />
     <orderEntry type="module" module-name="mylabora" />
     <orderEntry type="module" module-name="projango" />
     <orderEntry type="module" module-name="publish" />
