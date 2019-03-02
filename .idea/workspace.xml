@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbf17b17-6f11-4bbc-9df7-72af9154e5e4" name="Default" comment="搜索功能">
-      <change afterPath="$PROJECT_DIR$/../myvue/request/vp3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/.idea/alphadata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/.idea/alphadata.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/apple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apple.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="bbf17b17-6f11-4bbc-9df7-72af9154e5e4" name="Default" comment="添加request">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/alp_zxy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myvue/ss4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myvue/ss4/adder1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myvue/ss4/adder2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myvue/ss4/adder3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myvue/ss4/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myvue/ss4/sorterSmall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myvue/ss4/testargv2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvue/.idea/myvue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/.idea/myvue.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvue/request/vp3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/request/vp3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myvue/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myvue/test01.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,31 +23,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/apple$create_db.coverage" NAME="create_db Coverage Results" MODIFIED="1528694956650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
     <SUITE FILE_PATH="coverage/apple$conn01.coverage" NAME="conn01 Coverage Results" MODIFIED="1539053863435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$base.coverage" NAME="base Coverage Results" MODIFIED="1539238663381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/client" />
     <SUITE FILE_PATH="coverage/apple$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1541038332641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
+    <SUITE FILE_PATH="coverage/apple$utils.coverage" NAME="utils Coverage Results" MODIFIED="1533187916639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$create_db.coverage" NAME="create_db Coverage Results" MODIFIED="1528694956650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$conn.coverage" NAME="conn Coverage Results" MODIFIED="1537956052754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
+    <SUITE FILE_PATH="coverage/apple$client.coverage" NAME="client Coverage Results" MODIFIED="1541138695823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1533197228105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$oracle_1.coverage" NAME="oracle_1 Coverage Results" MODIFIED="1528868202749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$create_execute.coverage" NAME="create_execute Coverage Results" MODIFIED="1532594070120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
+    <SUITE FILE_PATH="coverage/apple$searchxls__1_.coverage" NAME="searchxls (1) Coverage Results" MODIFIED="1542175389933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/boot" />
+    <SUITE FILE_PATH="coverage/apple$base.coverage" NAME="base Coverage Results" MODIFIED="1539238663381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/client" />
+    <SUITE FILE_PATH="coverage/apple$books.coverage" NAME="books Coverage Results" MODIFIED="1533095398834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$oracle_core.coverage" NAME="oracle_core Coverage Results" MODIFIED="1528867573801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1535696188714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../django-wiki/testproject" />
     <SUITE FILE_PATH="coverage/apple$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1533809738160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
     <SUITE FILE_PATH="coverage/apple$oracle_2.coverage" NAME="oracle_2 Coverage Results" MODIFIED="1538969413143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$sqlalchemy_db.coverage" NAME="sqlalchemy_db Coverage Results" MODIFIED="1528705152916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$oracle_core.coverage" NAME="oracle_core Coverage Results" MODIFIED="1528867573801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
     <SUITE FILE_PATH="coverage/apple$views.coverage" NAME="views Coverage Results" MODIFIED="1533100367900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$books.coverage" NAME="books Coverage Results" MODIFIED="1533095398834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1533197228105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$create_execute.coverage" NAME="create_execute Coverage Results" MODIFIED="1532594070120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$test.coverage" NAME="test Coverage Results" MODIFIED="1542187713162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
-    <SUITE FILE_PATH="coverage/apple$client.coverage" NAME="client Coverage Results" MODIFIED="1541138695823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$books__1_.coverage" NAME="books (1) Coverage Results" MODIFIED="1533104624105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$sqlalchemy_db.coverage" NAME="sqlalchemy_db Coverage Results" MODIFIED="1528705152916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
     <SUITE FILE_PATH="coverage/apple$manage.coverage" NAME="manage Coverage Results" MODIFIED="1542541420712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$utils.coverage" NAME="utils Coverage Results" MODIFIED="1533187916639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$connection.coverage" NAME="connection Coverage Results" MODIFIED="1530372280877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$oracle_1.coverage" NAME="oracle_1 Coverage Results" MODIFIED="1528868202749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$conn.coverage" NAME="conn Coverage Results" MODIFIED="1537956052754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1535696188714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../django-wiki/testproject" />
     <SUITE FILE_PATH="coverage/apple$searchutils.coverage" NAME="searchutils Coverage Results" MODIFIED="1542196178361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/boot" />
-    <SUITE FILE_PATH="coverage/apple$searchxls__1_.coverage" NAME="searchxls (1) Coverage Results" MODIFIED="1542175389933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/boot" />
-    <SUITE FILE_PATH="coverage/apple$sqlfmt.coverage" NAME="sqlfmt Coverage Results" MODIFIED="1530159210616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphatest" />
+    <SUITE FILE_PATH="coverage/apple$books__1_.coverage" NAME="books (1) Coverage Results" MODIFIED="1533104624105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
     <SUITE FILE_PATH="coverage/apple$searchxls.coverage" NAME="searchxls Coverage Results" MODIFIED="1540795654716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
+    <SUITE FILE_PATH="coverage/apple$connection.coverage" NAME="connection Coverage Results" MODIFIED="1530372280877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
+    <SUITE FILE_PATH="coverage/apple$test.coverage" NAME="test Coverage Results" MODIFIED="1542187713162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
+    <SUITE FILE_PATH="coverage/apple$sqlfmt.coverage" NAME="sqlfmt Coverage Results" MODIFIED="1530159210616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphatest" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -176,63 +182,43 @@
     <session id="1887462186">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="1" />
+          <entry key="py" value="510" />
+          <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="Python" value="510" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
-          <entry key="txt" value="2" />
+          <entry key="py" value="10" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/boot/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-              <folding>
-                <element signature="e#73#131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/boot/searchutils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
-              <folding>
-                <element signature="e#73#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../alphadata/manage.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -246,57 +232,79 @@
         <entry file="file://$PROJECT_DIR$/../alphadata/requirements/vp3.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myvue/request/vp3.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="17" selection-start-line="2" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myvue/ss4/testargv2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myvue/test01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../myvue/request/vp3.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/boot/search_word.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myvue/test.py">
+        <entry file="file://$PROJECT_DIR$/../myvue/ss4/adder2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/boot/forms.py">
+        <entry file="file://$PROJECT_DIR$/../myvue/ss4/adder3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/_left_main_nav.html">
+        <entry file="file://$PROJECT_DIR$/../myvue/ss4/adder1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myvue/ss4/data.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/_left_nav.html">
+        <entry file="file://$PROJECT_DIR$/../myvue/ss4/sorterSmall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -350,13 +358,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/_environ.html" />
-        <option value="$PROJECT_DIR$/../alphadata/app/conn01.py" />
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/update.html" />
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/update-batch-flow.html" />
-        <option value="$PROJECT_DIR$/../alphadata/app/client/base.py" />
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/forge_cust_info.html" />
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/core/_cust_name.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/core/quick_add_account.html" />
         <option value="$PROJECT_DIR$/../alphadata/manage.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/core/tpquery/queryfundcode.html" />
@@ -385,7 +386,6 @@
         <option value="$PROJECT_DIR$/../alphadata/app/models.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/core/client.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/core/forms.py" />
-        <option value="$PROJECT_DIR$/../myvue/test01.py" />
         <option value="$PROJECT_DIR$/../alphadata/oracle_1.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/boot/query.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/boot/saerch_word.html" />
@@ -401,6 +401,14 @@
         <option value="$PROJECT_DIR$/../alphadata/app/templates/boot/_search_table.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/boot/views.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/boot/searchutils.py" />
+        <option value="$PROJECT_DIR$/../myvue/request/vp3.txt" />
+        <option value="$PROJECT_DIR$/../myvue/testargv2.py" />
+        <option value="$PROJECT_DIR$/../myvue/test01.py" />
+        <option value="$PROJECT_DIR$/../myvue/ss4/adder2.py" />
+        <option value="$PROJECT_DIR$/../myvue/ss4/adder3.py" />
+        <option value="$PROJECT_DIR$/../myvue/ss4/adder1.py" />
+        <option value="$PROJECT_DIR$/../myvue/ss4/sorterSmall.py" />
+        <option value="$PROJECT_DIR$/../myvue/ss4/data.txt" />
       </list>
     </option>
   </component>
@@ -417,10 +425,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="275" />
-    <option name="y" value="-12" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="412" />
+    <option name="y" value="-18" />
+    <option name="width" value="2904" />
+    <option name="height" value="1584" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -429,21 +437,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alphadata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alphadata" type="462c0819:PsiDirectoryNode" />
-              <item name="requirements" type="462c0819:PsiDirectoryNode" />
+              <item name="myvue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
               <item name="myvue" type="462c0819:PsiDirectoryNode" />
+              <item name="ss4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
@@ -458,7 +467,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,22 +480,22 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yang.zhou\PycharmProjects\myvue" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata\app\templates\core" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata\app\boot" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata\app\templates\core\tpquery" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata\app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\myvue\ss4" />
+      <recent name="C:\Users\User\PycharmProjects\myvue\request" />
       <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata\app\templates\boot" />
       <recent name="C:\Users\yang.zhou\PycharmProjects\myvue" />
       <recent name="C:\Users\yang.zhou\PycharmProjects\demo" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata\app\core" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\myvue\ss4" />
+      <recent name="C:\Users\User\PycharmProjects\myvue" />
+      <recent name="C:\Users\yang.zhou\PycharmProjects\myvue" />
+      <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata\app\templates\core" />
+      <recent name="C:\Users\yang.zhou\PycharmProjects\alphadata\app\boot" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -645,13 +653,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527837675990</updated>
-    </task>
-    <task id="LOCAL-00064" summary="修改查询次数记录方法">
-      <created>1536816489905</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1536816489905</updated>
     </task>
     <task id="LOCAL-00065" summary="移除core模块，视图内记录查询次数的，全部改为使用钩子方法记录次数。">
       <created>1536817418788</created>
@@ -989,7 +990,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542194148455</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="添加request">
+      <created>1542543582721</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1542543582721</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1004,12 +1012,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.20895523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.2835821" />
       <window_info id="Structure" order="1" sideWeight="0.5021834" side_tool="true" weight="0.1762481" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3253638" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.35939196" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.35765123" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3253638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1018,15 +1026,15 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.3253638" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33876222" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.41042346" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3243243" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5010661" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="bottom" id="File Transfer" order="15" sideWeight="0.4989339" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="File Transfer" order="15" sideWeight="0.4989339" weight="0.32899022" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.13965885" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.21162046" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32995737" />
     </layout>
     <layout-to-restore>
@@ -1064,7 +1072,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../alphatest" />
     </ignored-roots>
-    <MESSAGE value="修改环境维护表结构01" />
     <MESSAGE value="客户信息查询优化" />
     <MESSAGE value="批处理节点重置" />
     <MESSAGE value="提示文案修改" />
@@ -1089,48 +1096,10 @@
     <MESSAGE value="207兼容老账户中心" />
     <MESSAGE value="优化" />
     <MESSAGE value="搜索功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="搜索功能" />
+    <MESSAGE value="添加request" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加request" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../myvue/searchxls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="18" selection-start-line="18" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/update.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querypubfundcode.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querycustbook.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querynotifyorder.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querydemo.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/querycustinfo.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/_table_list.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/core/_simple_table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/boot/query.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1289,9 +1258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <element signature="e#73#131#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1334,11 +1300,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
-          <folding>
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/getopt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/optparse.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/manage.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1350,12 +1321,65 @@
     <entry file="file://$PROJECT_DIR$/../alphadata/requirements/vp3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../myvue/request/vp3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myvue/ss4/testargv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myvue/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myvue/ss4/adder3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myvue/ss4/sorterSmall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myvue/ss4/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myvue/ss4/adder1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myvue/ss4/adder2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
