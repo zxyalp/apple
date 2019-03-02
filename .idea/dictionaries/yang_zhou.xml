@@ -3,6 +3,7 @@
     <words>
       <w>acti</w>
       <w>addr</w>
+      <w>asctime</w>
       <w>bindcard</w>
       <w>ccms</w>
       <w>cnaps</w>
@@ -14,8 +15,11 @@
       <w>forone</w>
       <w>hbone</w>
       <w>inlines</w>
+      <w>levelname</w>
+      <w>mockd</w>
       <w>payredeem</w>
       <w>phoneidentify</w>
+      <w>popen</w>
       <w>querycustinfo</w>
       <w>querydealorder</w>
       <w>querydemo</w>
@@ -23,10 +27,13 @@
       <w>querynotifyorder</w>
       <w>querypubfundcode</w>
       <w>querypublicfundcode</w>
+      <w>rede</w>
       <w>simu</w>
       <w>sqlalchemy</w>
+      <w>stdin</w>
       <w>tablename</w>
       <w>xieyi</w>
+      <w>xvmf</w>
       <w>zhzx</w>
     </words>
   </dictionary>
