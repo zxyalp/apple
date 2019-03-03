@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="data-dev" uuid="b3014a57-2355-49b2-8bf1-2077b1eea509">
-      <driver-ref>sqlite.xerial</driver-ref>
+      <driver-ref>bf2d7013-bff0-4668-bd5b-6c8609b2e90b</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\yang.zhou\PycharmProjects\alphadata\data-dev.sqlite</jdbc-url>
@@ -22,7 +22,7 @@
       </libraries>
     </data-source>
     <data-source source="LOCAL" name="pro-data" uuid="016fa125-52cc-4722-84ef-8d366a92cb34">
-      <driver-ref>sqlite.xerial</driver-ref>
+      <driver-ref>bf2d7013-bff0-4668-bd5b-6c8609b2e90b</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\yang.zhou\PycharmProjects\alphadata\pro-data.sqlite</jdbc-url>
@@ -38,6 +38,23 @@
         </library>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.20.1.1/xerial-sqlite-license_2.txt</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="db" uuid="31b410a1-3463-4ac4-bb06-2c640ab58622">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\User\PycharmProjects\letstestcore\db.sqlite3</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.20.1.1/sqlite-jdbc-3.20.1.1.jar</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.20.1.1/xerial-sqlite-license.txt</url>
         </library>
       </libraries>
     </data-source>
