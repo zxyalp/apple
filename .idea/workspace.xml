@@ -2,37 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf17b17-6f11-4bbc-9df7-72af9154e5e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/base/log4py.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/base/logging.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/base/db_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/base/log4py.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/base/logging.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/command/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/command/baseline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/command/migrate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/command/repair.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/database/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/database/insert_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/database/select_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/flyway.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/logs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/rules/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/rules/flyway_sql_rules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tms-test-script/jekins/update_dubbo_itest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alphadata/app/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/app/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yang_zhou.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yang_zhou.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alphadata/data-dev.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../alphadata/data-dev.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/apple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apple.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5f01b8ce-5b95-4018-a807-06c95c574f53/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b69ae15-b60f-4882-9ec5-2e861f8bed46/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e6722bef-ef8d-4411-bbbf-f676492633ca/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tms-test-script/base/ssh.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tms-test-script/base/ssh.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tms-test-script/base/sys.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tms-test-script/base/sys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tms-test-script/flyway/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/base/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tms-test-script/flyway/searchsql.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tms-test-script/flywaydb/rules/searchsql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tms-test-script/jekins/tms_mock_deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tms-test-script/jekins/tms_mock_deploy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tms-test-script/trade/insert_cust_books_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tms-test-script/trade/insert_cust_books_templates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tms-test-script/trade/insert_fund_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tms-test-script/trade/insert_fund_templates.py" afterDir="false" />
-      <change beforePath="F:/build/publish/TMSMock/tms_mock_deploy.py" beforeDir="false" afterPath="F:/build/publish/TMSMock/tms_mock_deploy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../letstestcore/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../letstestcore/polls/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../letstestcore/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../letstestcore/polls/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../letstestcore/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../letstestcore/polls/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatdata/.idea/whatdata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../whatdata/.idea/whatdata.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,58 +25,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/apple$flyway_sql_rules.coverage" NAME="flyway_sql_rules Coverage Results" MODIFIED="1548229937291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flywaydb" />
-    <SUITE FILE_PATH="coverage/apple$sql_naming_rules.coverage" NAME="sql_naming_rules Coverage Results" MODIFIED="1548155488148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flywaydb" />
-    <SUITE FILE_PATH="coverage/apple$TmsMockDeploy.coverage" NAME="TmsMockDeploy Coverage Results" MODIFIED="1545373405101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$oracle_1.coverage" NAME="oracle_1 Coverage Results" MODIFIED="1528868202749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$pring_argv.coverage" NAME="pring_argv Coverage Results" MODIFIED="1545371800053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$create_db.coverage" NAME="create_db Coverage Results" MODIFIED="1528694956650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$searchxls.coverage" NAME="searchxls Coverage Results" MODIFIED="1540795654716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
-    <SUITE FILE_PATH="coverage/apple$svn_help.coverage" NAME="svn_help Coverage Results" MODIFIED="1545733060273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$books.coverage" NAME="books Coverage Results" MODIFIED="1533095398834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1548234966200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flywaydb" />
-    <SUITE FILE_PATH="coverage/apple$oracle_core.coverage" NAME="oracle_core Coverage Results" MODIFIED="1528867573801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$demoexcel.coverage" NAME="demoexcel Coverage Results" MODIFIED="1543828358721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1533197228105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$insert_fund_templates.coverage" NAME="insert_fund_templates Coverage Results" MODIFIED="1548146380434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/trade" />
-    <SUITE FILE_PATH="coverage/apple$createexcel.coverage" NAME="createexcel Coverage Results" MODIFIED="1543807197409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$searchsql.coverage" NAME="searchsql Coverage Results" MODIFIED="1548146575939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flywaydb" />
-    <SUITE FILE_PATH="coverage/apple$log4py.coverage" NAME="log4py Coverage Results" MODIFIED="1548242810466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flywaydb" />
-    <SUITE FILE_PATH="coverage/apple$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1543395945719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
-    <SUITE FILE_PATH="coverage/apple$cust_books.coverage" NAME="cust_books Coverage Results" MODIFIED="1544428780271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
     <SUITE FILE_PATH="coverage/apple$conn01.coverage" NAME="conn01 Coverage Results" MODIFIED="1539053863435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$tms_mock_deploy__1_.coverage" NAME="tms_mock_deploy (1) Coverage Results" MODIFIED="1546850325137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/jekins" />
-    <SUITE FILE_PATH="coverage/apple$base.coverage" NAME="base Coverage Results" MODIFIED="1539238663381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/client" />
-    <SUITE FILE_PATH="coverage/apple$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1533809738160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
-    <SUITE FILE_PATH="coverage/apple$ssh_test.coverage" NAME="ssh_test Coverage Results" MODIFIED="1546412116915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1535696188714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../django-wiki/testproject" />
-    <SUITE FILE_PATH="coverage/apple$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1547185437279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/base" />
-    <SUITE FILE_PATH="coverage/apple$readexcel.coverage" NAME="readexcel Coverage Results" MODIFIED="1543813914666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$views.coverage" NAME="views Coverage Results" MODIFIED="1533100367900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$searchutils.coverage" NAME="searchutils Coverage Results" MODIFIED="1547521575174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/boot" />
-    <SUITE FILE_PATH="coverage/apple$sqlfmt.coverage" NAME="sqlfmt Coverage Results" MODIFIED="1530159210616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphatest" />
-    <SUITE FILE_PATH="coverage/apple$fund_templates.coverage" NAME="fund_templates Coverage Results" MODIFIED="1544168603025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
+    <SUITE FILE_PATH="coverage/apple$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1541038332641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
+    <SUITE FILE_PATH="coverage/apple$utils.coverage" NAME="utils Coverage Results" MODIFIED="1533187916639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$create_db.coverage" NAME="create_db Coverage Results" MODIFIED="1528694956650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
     <SUITE FILE_PATH="coverage/apple$conn.coverage" NAME="conn Coverage Results" MODIFIED="1537956052754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$sftp_test.coverage" NAME="sftp_test Coverage Results" MODIFIED="1545721214357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$manage.coverage" NAME="manage Coverage Results" MODIFIED="1543979704518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$books__1_.coverage" NAME="books (1) Coverage Results" MODIFIED="1533104624105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$oracle_2.coverage" NAME="oracle_2 Coverage Results" MODIFIED="1538969413143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
-    <SUITE FILE_PATH="coverage/apple$migrate.coverage" NAME="migrate Coverage Results" MODIFIED="1547784973515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flywaydb/command" />
+    <SUITE FILE_PATH="coverage/apple$Flask_____alphadata_manage_py_.coverage" NAME="Flask (../alphadata/manage.py) Coverage Results" MODIFIED="1551604032492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/apple$client.coverage" NAME="client Coverage Results" MODIFIED="1541138695823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
-    <SUITE FILE_PATH="coverage/apple$sqlalchemy_db.coverage" NAME="sqlalchemy_db Coverage Results" MODIFIED="1528705152916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1533197228105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$oracle_1.coverage" NAME="oracle_1 Coverage Results" MODIFIED="1528868202749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
     <SUITE FILE_PATH="coverage/apple$create_execute.coverage" NAME="create_execute Coverage Results" MODIFIED="1532594070120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$tms_mock_deploy.coverage" NAME="tms_mock_deploy Coverage Results" MODIFIED="1546845140225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/build/publish/TMSMock" />
-    <SUITE FILE_PATH="coverage/apple$insert_cust_books_templates.coverage" NAME="insert_cust_books_templates Coverage Results" MODIFIED="1544527481639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$connection.coverage" NAME="connection Coverage Results" MODIFIED="1530372280877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
-    <SUITE FILE_PATH="coverage/apple$test.coverage" NAME="test Coverage Results" MODIFIED="1548073994977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flywaydb" />
-    <SUITE FILE_PATH="coverage/apple$Flask_____alphadata_manage_py_.coverage" NAME="Flask (../alphadata/manage.py) Coverage Results" MODIFIED="1547543070875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/apple$fund_and_book.coverage" NAME="fund_and_book Coverage Results" MODIFIED="1544431165198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mylabora" />
-    <SUITE FILE_PATH="coverage/apple$flyway.coverage" NAME="flyway Coverage Results" MODIFIED="1548295100171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flywaydb/command" />
     <SUITE FILE_PATH="coverage/apple$searchxls__1_.coverage" NAME="searchxls (1) Coverage Results" MODIFIED="1542175389933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/boot" />
-    <SUITE FILE_PATH="coverage/apple$updatepip.coverage" NAME="updatepip Coverage Results" MODIFIED="1542265945415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/requirements" />
-    <SUITE FILE_PATH="coverage/apple$flyway__1_.coverage" NAME="flyway (1) Coverage Results" MODIFIED="1548298293533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flywaydb" />
-    <SUITE FILE_PATH="coverage/apple$database.coverage" NAME="database Coverage Results" MODIFIED="1547703487025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/flyway" />
-    <SUITE FILE_PATH="coverage/apple$utils.coverage" NAME="utils Coverage Results" MODIFIED="1547184199181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tms-test-script/base" />
+    <SUITE FILE_PATH="coverage/apple$base.coverage" NAME="base Coverage Results" MODIFIED="1539238663381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/client" />
+    <SUITE FILE_PATH="coverage/apple$books.coverage" NAME="books Coverage Results" MODIFIED="1533095398834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$oracle_core.coverage" NAME="oracle_core Coverage Results" MODIFIED="1528867573801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1535696188714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../django-wiki/testproject" />
+    <SUITE FILE_PATH="coverage/apple$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1533809738160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
+    <SUITE FILE_PATH="coverage/apple$oracle_2.coverage" NAME="oracle_2 Coverage Results" MODIFIED="1538969413143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$views.coverage" NAME="views Coverage Results" MODIFIED="1533100367900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$sqlalchemy_db.coverage" NAME="sqlalchemy_db Coverage Results" MODIFIED="1528705152916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata" />
+    <SUITE FILE_PATH="coverage/apple$manage.coverage" NAME="manage Coverage Results" MODIFIED="1551614242034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../letstestcore" />
+    <SUITE FILE_PATH="coverage/apple$searchutils.coverage" NAME="searchutils Coverage Results" MODIFIED="1542196178361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/boot" />
+    <SUITE FILE_PATH="coverage/apple$books__1_.coverage" NAME="books (1) Coverage Results" MODIFIED="1533104624105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app/core" />
+    <SUITE FILE_PATH="coverage/apple$searchxls.coverage" NAME="searchxls Coverage Results" MODIFIED="1540795654716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
+    <SUITE FILE_PATH="coverage/apple$connection.coverage" NAME="connection Coverage Results" MODIFIED="1530372280877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphadata/app" />
+    <SUITE FILE_PATH="coverage/apple$test.coverage" NAME="test Coverage Results" MODIFIED="1542187713162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myvue" />
+    <SUITE FILE_PATH="coverage/apple$sqlfmt.coverage" NAME="sqlfmt Coverage Results" MODIFIED="1530159210616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../alphatest" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -105,28 +63,133 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data-dev" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pro-data" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/flyway.py">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../letstestcore/polls/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="308">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/base/log4py.py">
+        <entry file="file://$PROJECT_DIR$/../letstestcore/polls/templates/polls/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="242">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../letstestcore/letstestcore/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../letstestcore/polls/templates/polls/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../letstestcore/polls/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="22" />
               <folding>
-                <element signature="e#86#100#0" expanded="true" />
+                <element signature="e#72#100#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../letstestcore/polls/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../letstestcore/polls/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Envs/django-env/Lib/site-packages/django/views/generic/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3665">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../letstestcore/polls/templates/polls/results.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -138,8 +201,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -194,22 +257,11 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../tms-test-script" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../letstestcore" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../mylabora/ssh_test.py" />
-        <option value="$PROJECT_DIR$/../tms-test-script/base/__init__.py" />
-        <option value="$PROJECT_DIR$/../tms-test-script/base/oshelper.py" />
-        <option value="$PROJECT_DIR$/../mylabora/test.py" />
-        <option value="F:/build/publish/TMSMock/tms_mock_deploy.py" />
-        <option value="$PROJECT_DIR$/../tms-test-script/jekins/tms_mock_deploy.py" />
-        <option value="$PROJECT_DIR$/../tms-test-script/jekins/update_dubbo_itest.py" />
-        <option value="$PROJECT_DIR$/../tms-test-script/base/utils.py" />
-        <option value="$PROJECT_DIR$/../alphadata/app/boot/forms.py" />
-        <option value="$PROJECT_DIR$/../alphadata/app/templates/boot/_search_table.html" />
-        <option value="$PROJECT_DIR$/../alphadata/app/boot/views.py" />
         <option value="$PROJECT_DIR$/../alphadata/config.py" />
         <option value="$PROJECT_DIR$/../alphadata/app/templates/boot/search_word.html" />
         <option value="$PROJECT_DIR$/../alphadata/app/boot/searchutils.py" />
@@ -250,6 +302,17 @@
         <option value="$PROJECT_DIR$/../tms-test-script/flywaydb/base/logging.yaml" />
         <option value="$PROJECT_DIR$/../tms-test-script/flywaydb/base/log4py.py" />
         <option value="$PROJECT_DIR$/../tms-test-script/flywaydb/flyway.py" />
+        <option value="$PROJECT_DIR$/../letstestcore/letstestcore/settings.py" />
+        <option value="$PROJECT_DIR$/../letstestcore/polls/admin.py" />
+        <option value="$PROJECT_DIR$/../alphadata/app/oracle_conn.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/../letstestcore/polls/templates/polls/index.html" />
+        <option value="$PROJECT_DIR$/../letstestcore/polls/templates/polls/results.html" />
+        <option value="$PROJECT_DIR$/../letstestcore/polls/templates/polls/detail.html" />
+        <option value="$PROJECT_DIR$/../letstestcore/polls/urls.py" />
+        <option value="$PROJECT_DIR$/../letstestcore/polls/models.py" />
+        <option value="$PROJECT_DIR$/../letstestcore/polls/views.py" />
+        <option value="$PROJECT_DIR$/../letstestcore/polls/tests.py" />
       </list>
     </option>
   </component>
@@ -259,11 +322,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="550" />
-    <option name="y" value="4" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="787" />
+    <option name="width" value="1134" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -282,8 +344,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -297,25 +360,350 @@
           <expand>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tms-test-script" type="462c0819:PsiDirectoryNode" />
+              <item name="apple" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tms-test-script" type="462c0819:PsiDirectoryNode" />
-              <item name="flywaydb" type="462c0819:PsiDirectoryNode" />
+              <item name="apple" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="publish" type="462c0819:PsiDirectoryNode" />
+              <item name="letstestcore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="publish" type="462c0819:PsiDirectoryNode" />
-              <item name="TMSMock" type="462c0819:PsiDirectoryNode" />
+              <item name="letstestcore" type="462c0819:PsiDirectoryNode" />
+              <item name="letstestcore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letstestcore" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="django-env" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+            </path>
+            <path>
+              <item name="apple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (django-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+              <item name="2and3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
@@ -324,12 +712,16 @@
             </path>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (flask-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
             </path>
             <path>
               <item name="apple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (flask-env) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+              <item name="2and3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -344,26 +736,26 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flywaydb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apple/settings.py" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.flask.configuration.FlaskConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\alphadata\app" />
+      <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb" />
+      <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb\command" />
+      <recent name="F:\build\publish\TMSMock" />
+      <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\jekins" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb\logs" />
       <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb\base" />
       <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb" />
       <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb\rules" />
       <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb\sql" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb\command" />
-      <recent name="F:\build\publish\TMSMock" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\tms-test-script\jekins" />
-      <recent name="C:\Users\yang.zhou\PycharmProjects\mylabora" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,22 +770,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.flyway (1)">
-    <configuration name="flyway (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tms-test-script" />
+  <component name="RunManager" selected="Flask server.Flask (../alphadata/manage.py)">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="letstestcore" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tms-test-script/flywaydb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../letstestcore" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tms-test-script/flywaydb/flyway.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../letstestcore/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -401,132 +793,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flyway" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tms-test-script" />
+    <configuration name="Flask (../alphadata/manage.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+      <module name="alphadata" />
+      <option name="target" value="$PROJECT_DIR$/../alphadata/manage.py" />
+      <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tms-test-script/flywaydb/command" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb\flyway.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="flyway_sql_rules" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tms-test-script" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tms-test-script/flywaydb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb\rules\flyway_sql_rules.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="log4py" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tms-test-script" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tms-test-script/flywaydb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\yang.zhou\PycharmProjects\tms-test-script\flywaydb\base\log4py.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tms-test-script" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tms-test-script/flywaydb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tms-test-script/flywaydb/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test2" />
-      <item itemvalue="Python.flyway_sql_rules" />
-      <item itemvalue="Python.flyway" />
-      <item itemvalue="Python.log4py" />
-      <item itemvalue="Python.flyway (1)" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Flask server.Flask (../alphadata/manage.py)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.flyway (1)" />
-        <item itemvalue="Python.flyway" />
-        <item itemvalue="Python.log4py" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.flyway_sql_rules" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Flask server.Flask (../alphadata/manage.py)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\yang.zhou\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="F:\build\publish" />
-          <option name="myCopyRoot" value="F:\build\publish" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="F:\build\publish" />
-          <option name="myCopyRoot" value="F:\build\publish" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -546,34 +841,8 @@
       <workItem from="1547184272518" duration="1702000" />
       <workItem from="1547430217117" duration="24326000" />
       <workItem from="1547702754516" duration="102455000" />
-    </task>
-    <task id="LOCAL-00086" summary="兼容老账户中心查询语句">
-      <created>1540866109441</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1540866109441</updated>
-    </task>
-    <task id="LOCAL-00087" summary="批处理重置">
-      <created>1540867079035</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1540867079035</updated>
-    </task>
-    <task id="LOCAL-00088" summary="可以查询公募产品信息">
-      <created>1540899463210</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1540899463210</updated>
-    </task>
-    <task id="LOCAL-00089" summary="增加热门排行榜功能">
-      <created>1540963869468</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1540963869468</updated>
+      <workItem from="1551508123537" duration="891000" />
+      <workItem from="1551595474760" duration="17728000" />
     </task>
     <task id="LOCAL-00090" summary="数据迁移管理">
       <created>1540963991859</created>
@@ -890,11 +1159,39 @@
       <option name="project" value="LOCAL" />
       <updated>1547543119184</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="找回oracle_conn文件">
+      <created>1551602973869</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1551602973870</updated>
+    </task>
+    <task id="LOCAL-00136" summary="修改oracle_conn注释">
+      <created>1551603216365</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1551603216365</updated>
+    </task>
+    <task id="LOCAL-00137" summary="完成django第3部分">
+      <created>1551612576641</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1551612576641</updated>
+    </task>
+    <task id="LOCAL-00138" summary="完成django第4部分">
+      <created>1551615703178</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1551615703179</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179692000" />
+    <option name="totallyTimeSpent" value="198320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -906,23 +1203,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="787" y="0" width="1134" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966292" visible="true" weight="0.2118003" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966292" visible="true" weight="0.23091248" />
       <window_info id="Structure" order="1" sideWeight="0.50337076" side_tool="true" weight="0.20499243" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32405892" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3633388" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.48959473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5581015" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32744282" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.3253638" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.324295" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37175494" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25629792" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3243243" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5010661" side_tool="true" weight="0.3253638" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -930,34 +1228,34 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.18078668" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="3" weight="0.25884545" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32932165" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966292" visible="true" weight="0.20499243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966292" visible="true" weight="0.25586355" />
       <window_info id="Structure" order="1" sideWeight="0.50337076" side_tool="true" weight="0.20499243" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32733223" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.111292966" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45008183" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32405892" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.35032538" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5581015" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32744282" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.3253638" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.324295" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37175494" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2570499" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3243243" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5010661" side_tool="true" weight="0.3253638" />
       <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="bottom" id="File Transfer" order="15" weight="0.24299066" />
+      <window_info anchor="bottom" id="File Transfer" order="15" weight="0.07692308" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.18078668" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="3" weight="0.25929978" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32932165" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -969,11 +1267,10 @@
       <path value="F:/build" />
       <path value="F:/build/publish" />
       <path value="F:/build/publish-test" />
+      <path value="$PROJECT_DIR$/../django-wiki" />
+      <path value="$PROJECT_DIR$/../projango" />
+      <path value="$PROJECT_DIR$/../tms-test-script" />
     </ignored-roots>
-    <MESSAGE value="在线执行优化" />
-    <MESSAGE value="修复" />
-    <MESSAGE value="兼容老账户中心查询语句" />
-    <MESSAGE value="批处理重置" />
     <MESSAGE value="可以查询公募产品信息" />
     <MESSAGE value="增加热门排行榜功能" />
     <MESSAGE value="数据迁移管理" />
@@ -995,313 +1292,22 @@
     <MESSAGE value="优化" />
     <MESSAGE value="打包脚本优化" />
     <MESSAGE value="搜索优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="搜索优化" />
+    <MESSAGE value="找回oracle_conn文件" />
+    <MESSAGE value="修改oracle_conn注释" />
+    <MESSAGE value="完成django第3部分" />
+    <MESSAGE value="完成django第4部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成django第4部分" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Envs/flask-env/Lib/site-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/flask-env/Lib/site-packages/requests/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="30" column="59" lean-forward="true" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/base/log4py.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="e#72#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/command/flyway.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/command/flyway.sqlite">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0674ded3-c843-4fdf-84e5-cba23c283732/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/templates/boot/search_word.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/boot/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python/Python36/Lib/shlex.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/base/ssh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="52" selection-start-line="52" selection-end-line="58" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/boot/searchutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/subprocess.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Python/Python36/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="1324" column="8" selection-start-line="1324" selection-start-column="8" selection-end-line="1324" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/command/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/boot/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/core/exts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alphadata/app/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="147" column="39" selection-start-line="147" selection-start-column="39" selection-end-line="147" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/jekins/update_dubbo_itest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/trade/insert_cust_books_templates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/trade/insert_fund_templates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/database/select_schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/database/insert_schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="646" column="8" selection-start-line="646" selection-start-column="8" selection-end-line="646" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-963897537/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="3621" column="97" lean-forward="true" selection-start-line="3621" selection-start-column="97" selection-end-line="3621" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="291" column="6" selection-start-line="291" selection-start-column="6" selection-end-line="291" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="350" column="1" selection-start-line="350" selection-start-column="1" selection-end-line="350" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/command/migrate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/base/sys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="111" column="18" lean-forward="true" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
-          <folding>
-            <element signature="e#71#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/jekins/tms_mock_deploy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="381" column="18" lean-forward="true" selection-start-line="381" selection-start-column="18" selection-end-line="381" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/syskit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="e#72#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python/Python36/Lib/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="501" column="48" selection-start-line="501" selection-start-column="48" selection-end-line="501" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/rules/flyway_sql_rules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-          <folding>
-            <element signature="e#72#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/base/logging.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/command/error.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/command/stdout.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/command/baseline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/database/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/rules/searchsql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#71#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/base/db_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/error.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/stdout.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/base/logging.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/logs/error.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/logs/stdout.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#72#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/base/db_info.py" />
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/error.log" />
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/stdout.log" />
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/base/logging.yaml" />
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/logs/error.log" />
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/logs/stdout.log" />
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/test2.py" />
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/test.py" />
     <entry file="file://$PROJECT_DIR$/../alphadata/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1309,30 +1315,277 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/base/log4py.py" />
+    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/flyway.py" />
+    <entry file="file://$PROJECT_DIR$/../letstestcore/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/django-env/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6488">
+          <caret line="490" column="18" lean-forward="true" selection-start-line="490" selection-start-column="18" selection-end-line="490" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/polls/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/polls/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/letstestcore/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://31b410a1-3463-4ac4-bb06-2c640ab58622/schema/main/table/sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://31b410a1-3463-4ac4-bb06-2c640ab58622/schema/main/table/polls_choice">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/django-env/Lib/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/django-env/Lib/site-packages/django/utils/timezone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="221" column="11" lean-forward="true" selection-start-line="221" selection-start-column="11" selection-end-line="221" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="134" column="15" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/django-env/Lib/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/django-env/Lib/site-packages/django/contrib/admin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="525" column="8" selection-start-line="525" selection-start-column="8" selection-end-line="525" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/django-env/Lib/site-packages/django/contrib/admin/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/oracle_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/decorators.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/conn01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/core/books.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/oraclemeta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#72#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/conn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/tms_mock_deploy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/oracle_conn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../alphadata/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="417">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#72#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/base/log4py.py">
+    <entry file="file://$PROJECT_DIR$/../alphadata/app/core/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="-3080">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://31b410a1-3463-4ac4-bb06-2c640ab58622/schema/main/table/polls_question">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/django-env/Lib/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="73" column="27" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/polls/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#86#100#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tms-test-script/flywaydb/flyway.py">
+    <entry file="file://$PROJECT_DIR$/../letstestcore/letstestcore/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="291">
+          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/polls/templates/polls/results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/polls/templates/polls/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/polls/templates/polls/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/django-env/Lib/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3665">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/django-env/Lib/site-packages/django/views/generic/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="196" column="32" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/polls/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#72#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../letstestcore/polls/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
