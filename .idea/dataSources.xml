@@ -41,7 +41,7 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="db" uuid="31b410a1-3463-4ac4-bb06-2c640ab58622">
+    <data-source source="LOCAL" name="db" uuid="59b29394-a482-46bf-80ba-d71c372c6f14">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
@@ -50,6 +50,12 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
       <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+        </library>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.20.1.1/sqlite-jdbc-3.20.1.1.jar</url>
         </library>
