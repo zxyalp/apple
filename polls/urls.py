@@ -2,7 +2,7 @@
 """
 Created on 2018/6/1
 
-@author: xing yan
+@author: yang.zhou
 """
 from django.urls import path
 from . import views
